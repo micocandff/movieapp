@@ -37,12 +37,12 @@ This is a Laravel-based application for managing a collection of movies. The app
     ```bash
     cp .env.example .env
     
-**Update the .env file with your database credentials and other necessary configuration. If you're using     Laragon, your .env file might look like this:**
+Update the .env file with your database credentials and other necessary configuration. If you're using     Laragon, your .env file might look like this:
 
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
-    DB_DATABASE=laravel
+    DB_DATABASE=movie_db
     DB_USERNAME=root
     DB_PASSWORD=
 
@@ -76,13 +76,13 @@ To set up the database, follow these steps:
 
     Ensure your .env file contains the correct database configuration:
     ```bash
-    env
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
-    DB_DATABASE=laravel
+    DB_DATABASE=movie_db
     DB_USERNAME=root
     DB_PASSWORD=
+    
 3. **Run Migrations:**
 
    Run the migrations to set up the database schema:
