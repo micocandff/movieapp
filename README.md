@@ -63,6 +63,39 @@ This is a Laravel-based application for managing a collection of movies. The app
     Open Laragon and click on "Start All".
     The application will be available at http://localhost.
 
+#Database Setup
+To set up the database, follow these steps:
+
+1. **Create the Database:**
+   
+   Create a database using your preferred method (e.g., via phpMyAdmin, MySQL Workbench, or command line).
+   ```bash
+   CREATE DATABASE laravel;
+
+2. **Update the .env File:**
+
+    Ensure your .env file contains the correct database configuration:
+    ```bash
+    env
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=laravel
+    DB_USERNAME=root
+    DB_PASSWORD=
+3. **Run Migrations:**
+
+   Run the migrations to set up the database schema:
+
+    ```bash
+    php artisan migrate
+
+4. **Seed the Database (Optional):**
+
+   If you have a database seeder, you can seed the database with initial data:
+    ```bash
+    php artisan db:seed
+
 # Usage
 
 ## Main Page
