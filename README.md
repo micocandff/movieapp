@@ -70,7 +70,7 @@ To set up the database, follow these steps:
    
    Create a database using your preferred method (e.g., via phpMyAdmin, MySQL Workbench, or command line).
    ```bash
-   CREATE DATABASE laravel;
+   CREATE DATABASE movie_db;
 
 2. **Update the .env File:**
 
