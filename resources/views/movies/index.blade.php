@@ -22,9 +22,7 @@
                 </div>
             @endforeach
         </div>
-        </div>
-            <a href="{{ url('movies/create') }}" class=" btn btn-primary btn-floating float-right">+</a>
-        </div>  
+        <a href="{{ url('movies/create') }}" class="btn btn-primary btn-floating add-button float-right">+</a>
     </div>
 @endsection
 
